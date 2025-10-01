@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "title": "Escaliers Sur-Mesure",
+    "description": "Escaliers droits, hélicoïdaux ou quart tournant, conçus et fabriqués selon vos besoins et l'architecture de votre maison.",
+    "image": "atelier-du-volcan/services/escaliers",
+    "category": "stairs",
+    "priceRange": "3 500€",
+    "features": [
+      "Étude personnalisée gratuite",
+      "Bois massif local (chêne, hêtre, frêne)",
+      "Finitions sur-mesure",
+      "Installation professionnelle",
+      "Garantie 10 ans"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Dressings & Placards",
+    "description": "Optimisez vos espaces de rangement avec nos solutions sur-mesure adaptées à chaque configuration.",
+    "image": "atelier-du-volcan/services/dressings",
+    "category": "interior",
+    "priceRange": "1 200€",
+    "features": [
+      "Conception 3D incluse",
+      "Optimisation de l'espace",
+      "Accessoires haut de gamme",
+      "Éclairage LED intégré",
+      "Portes coulissantes ou battantes"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Terrasses en Bois",
+    "description": "Créez votre espace détente extérieur avec nos terrasses en bois local, résistantes et esthétiques.",
+    "image": "atelier-du-volcan/services/terrasses",
+    "category": "exterior",
+    "priceRange": "85€/m²",
+    "features": [
+      "Bois traité classe 4",
+      "Structure ventilée",
+      "Finition anti-dérapante",
+      "Garantie 15 ans",
+      "Entretien minimal"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Cuisines Équipées",
+    "description": "Cuisines sur-mesure alliant fonctionnalité et esthétique, avec des matériaux nobles et durables.",
+    "image": "atelier-du-volcan/services/cuisines",
+    "category": "interior",
+    "priceRange": "8 500€",
+    "features": [
+      "Plan de travail en bois massif",
+      "Électroménager intégré",
+      "Rangements optimisés",
+      "Îlot central possible",
+      "Garantie 5 ans"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Pergolas & Tonnelles",
+    "description": "Structures extérieures élégantes pour créer des espaces ombragés et conviviaux dans votre jardin.",
+    "image": "atelier-du-volcan/services/pergolas",
+    "category": "exterior",
+    "priceRange": "2 800€",
+    "features": [
+      "Bois lamellé-collé",
+      "Résistance aux intempéries",
+      "Assemblage traditionnel",
+      "Couverture optionnelle",
+      "Installation rapide"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Bibliothèques Sur-Mesure",
+    "description": "Bibliothèques et étagères conçues pour s'intégrer parfaitement à votre intérieur et vos besoins.",
+    "image": "atelier-du-volcan/services/bibliotheques",
+    "category": "interior",
+    "priceRange": "950€",
+    "features": [
+      "Hauteur sous plafond",
+      "Étagères réglables",
+      "Finitions personnalisées",
+      "Éclairage intégré possible",
+      "Livraison et montage inclus"
+    ]
+  }
+]

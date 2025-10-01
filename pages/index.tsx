@@ -9,8 +9,24 @@ import ServiceCard from '../components/ServiceCard';
 import ProjectGallery from '../components/ProjectGallery';
 import Testimonial from '../components/Testimonial';
 import SeoHead from '../components/SeoHead';
-import { services, projects, testimonials } from '../utils/mockData';
+import { testimonials } from '../utils/mockData';
+import { getSiteContent, getServicesData, getProjectsData } from '../lib/content';
 import { Award, Leaf, Users, Clock } from 'lucide-react';
+
+// Fonction pour récupérer les données côté serveur
+export async function getStaticProps() {
+  const content = getSiteContent();
+  const services = getServicesData();
+  const projects = getProjectsData();
+  
+  return {
+    props: {
+      content,
+      services,
+      projects
+    }
+  };
+}
 
 // Composant LoadingIntro intégré directement
 const LoadingIntro = ({ onComplete }: { onComplete: () => void }) => {
@@ -80,7 +96,13 @@ const LoadingIntro = ({ onComplete }: { onComplete: () => void }) => {
   );
 };
 
-const Home: NextPage = () => {
+interface HomeProps {
+  content: any;
+  services: any[];
+  projects: any[];
+}
+
+const Home: NextPage<HomeProps> = ({ content, services, projects }) => {
   const [showIntro, setShowIntro] = useState(true);
   const [showContent, setShowContent] = useState(false);
   const [showHeroAnimation, setShowHeroAnimation] = useState(false);
@@ -93,28 +115,15 @@ const Home: NextPage = () => {
     }, 100);
   };
 
-  const whyUsFeatures = [
-    {
-      icon: <Clock className="w-8 h-8 text-amber-600" />,
-      title: "25 ans d'expérience",
-      description: "Un savoir-faire artisanal transmis de génération en génération"
-    },
-    {
-      icon: <Award className="w-8 h-8 text-amber-600" />,
-      title: "Labels Qualité",
-      description: "Certifiés RGE et Artisan Qualité pour votre tranquillité"
-    },
-    {
-      icon: <Leaf className="w-8 h-8 text-amber-600" />,
-      title: "Bois local",
-      description: "Matériaux sourcés en Auvergne pour un impact réduit"
-    },
-    {
-      icon: <Users className="w-8 h-8 text-amber-600" />,
-      title: "Équipe passionnée",
-      description: "Des artisans dévoués à l'excellence de chaque projet"
-    }
-  ];
+  const whyUsFeatures = content.whyUs.map((feature: any, index: number) => ({
+    ...feature,
+    icon: [
+      <Clock className="w-8 h-8 text-amber-600" />,
+      <Award className="w-8 h-8 text-amber-600" />,
+      <Leaf className="w-8 h-8 text-amber-600" />,
+      <Users className="w-8 h-8 text-amber-600" />
+    ][index]
+  }));
 
   return (
     <>
@@ -131,7 +140,7 @@ const Home: NextPage = () => {
       <div className={`transition-opacity duration-1000 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
         <Header />
         <main>
-          <Hero showAnimation={showHeroAnimation} />
+          <Hero showAnimation={showHeroAnimation} content={content} />
           
           {/* Services Section */}
           <section className="py-20 bg-stone-50">

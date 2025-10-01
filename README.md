@@ -18,6 +18,50 @@ npm run build
 npm run export
 ```
 
+## 🖼️ Configuration Cloudinary
+
+### 1. Créer un compte Cloudinary gratuit
+1. Allez sur [cloudinary.com](https://cloudinary.com)
+2. Créez un compte gratuit (25GB de stockage)
+3. Récupérez vos clés dans le Dashboard
+
+### 2. Configuration des variables d'environnement
+Modifiez le fichier `.env.local` :
+```env
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=votre-cloud-name
+CLOUDINARY_API_KEY=votre-api-key
+CLOUDINARY_API_SECRET=votre-api-secret
+```
+
+### 3. Upload des images
+1. **Via l'interface Cloudinary** : Uploadez vos images dans des dossiers organisés
+2. **Structure recommandée** :
+   ```
+   atelier-du-volcan/
+   ├── hero-background
+   ├── services/
+   │   ├── escaliers
+   │   ├── dressings
+   │   ├── terrasses
+   │   └── ...
+   └── projects/
+       ├── escalier-helicoidale-avant
+       ├── escalier-helicoidale-apres
+       └── ...
+   ```
+
+## 📝 Gestion du Contenu
+
+### Fichiers de contenu modifiables :
+- `data/content.json` - Textes principaux du site
+- `data/services.json` - Services et descriptions
+- `data/projects.json` - Projets et réalisations
+
+### Pour modifier le contenu :
+1. **Textes** : Éditez les fichiers JSON dans `/data/`
+2. **Images** : Uploadez sur Cloudinary et mettez à jour les IDs dans les JSON
+3. **Rebuild** : `npm run build` pour appliquer les changements
+
 ## 📁 Structure du Projet
 
 ```
@@ -44,6 +88,13 @@ npm run export
 │   └── SeoHead.tsx        # SEO & Meta tags
 ├── types/                 # Types TypeScript
 ├── utils/                 # Utilitaires
+├── data/                  # Fichiers de contenu JSON
+│   ├── content.json       # Contenu principal
+│   ├── services.json      # Services
+│   └── projects.json      # Projets
+├── lib/                   # Bibliothèques utilitaires
+│   ├── cloudinary.ts      # Configuration Cloudinary
+│   └── content.ts         # Helpers de contenu
 └── app/                   # Configuration globale
 ```
 
@@ -111,6 +162,8 @@ npm run export
 - **Framework** : Next.js 13.5
 - **Styling** : Tailwind CSS
 - **TypeScript** : Support complet
+- **Images** : Cloudinary CDN
+- **Contenu** : Fichiers JSON modifiables
 - **Forms** : React Hook Form + Zod
 - **Icons** : Lucide React
 - **SEO** : Next SEO + JSON-LD

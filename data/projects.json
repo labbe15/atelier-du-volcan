@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "title": "Escalier Hélicoïdal en Chêne",
+    "description": "Escalier hélicoïdal sur-mesure en chêne massif avec rampe forgée, créé pour une maison de caractère à Salers.",
+    "beforeImage": "atelier-du-volcan/projects/escalier-helicoidale-avant",
+    "afterImage": "atelier-du-volcan/projects/escalier-helicoidale-apres",
+    "category": "interior",
+    "location": "Salers",
+    "year": "2024",
+    "duration": "3 semaines",
+    "materials": ["Chêne massif", "Fer forgé", "Finition huile naturelle"]
+  },
+  {
+    "id": "2",
+    "title": "Dressing Suite Parentale",
+    "description": "Aménagement complet d'une suite parentale avec dressing sur-mesure et tête de lit intégrée.",
+    "beforeImage": "atelier-du-volcan/projects/dressing-suite-avant",
+    "afterImage": "atelier-du-volcan/projects/dressing-suite-apres",
+    "category": "interior",
+    "location": "Aurillac",
+    "year": "2024",
+    "duration": "2 semaines",
+    "materials": ["Hêtre massif", "Miroirs", "Éclairage LED"]
+  },
+  {
+    "id": "3",
+    "title": "Terrasse avec Pergola",
+    "description": "Terrasse en bois local avec pergola intégrée, créant un espace de vie extérieur exceptionnel.",
+    "beforeImage": "atelier-du-volcan/projects/terrasse-pergola-avant",
+    "afterImage": "atelier-du-volcan/projects/terrasse-pergola-apres",
+    "category": "exterior",
+    "location": "Murat",
+    "year": "2023",
+    "duration": "1 semaine",
+    "materials": ["Pin Douglas", "Visserie inox", "Traitement autoclave"]
+  },
+  {
+    "id": "4",
+    "title": "Cuisine Contemporaine",
+    "description": "Cuisine moderne en bois massif avec îlot central et plan de travail en chêne.",
+    "beforeImage": "atelier-du-volcan/projects/cuisine-contemporaine-avant",
+    "afterImage": "atelier-du-volcan/projects/cuisine-contemporaine-apres",
+    "category": "interior",
+    "location": "Saint-Flour",
+    "year": "2023",
+    "duration": "4 semaines",
+    "materials": ["Chêne massif", "Laque mate", "Quartz"]
+  },
+  {
+    "id": "5",
+    "title": "Bibliothèque Murale",
+    "description": "Bibliothèque sur-mesure du sol au plafond avec échelle coulissante et éclairage intégré.",
+    "beforeImage": "atelier-du-volcan/projects/bibliotheque-murale-avant",
+    "afterImage": "atelier-du-volcan/projects/bibliotheque-murale-apres",
+    "category": "interior",
+    "location": "Aurillac",
+    "year": "2024",
+    "duration": "10 jours",
+    "materials": ["Frêne massif", "Laiton", "LED"]
+  },
+  {
+    "id": "6",
+    "title": "Pergola Bioclimatique",
+    "description": "Pergola à lames orientables pour un contrôle optimal de la luminosité et de la ventilation.",
+    "beforeImage": "atelier-du-volcan/projects/pergola-bioclimatique-avant",
+    "afterImage": "atelier-du-volcan/projects/pergola-bioclimatique-apres",
+    "category": "exterior",
+    "location": "Vic-sur-Cère",
+    "year": "2023",
+    "duration": "2 semaines",
+    "materials": ["Aluminium", "Bois composite", "Motorisation"]
+  }
+]

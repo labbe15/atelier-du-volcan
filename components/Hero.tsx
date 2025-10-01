@@ -3,13 +3,26 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
+import { getSiteContent } from '../lib/content';
+import { getImageUrl } from '../lib/content';
 
 interface HeroProps {
   showAnimation?: boolean;
+  content?: any;
 }
 
-const Hero = ({ showAnimation = false }: HeroProps) => {
+const Hero = ({ showAnimation = false, content }: HeroProps) => {
   const [scrollY, setScrollY] = useState(0);
+  
+  // Utiliser le contenu passé en props ou charger le contenu par défaut
+  const heroContent = content?.hero || {
+    title: "Le <span class=\"text-amber-400\">bois</span>,<br />la <span class=\"text-green-400\">nature</span>,<br />l'<span class=\"text-amber-400\">excellence</span>",
+    subtitle: "Créateurs de mobilier sur-mesure et d'aménagements d'exception au cœur de l'Auvergne. Chaque projet est une œuvre unique.",
+    location: "Aurillac • Murat • Salers • Toute l'Auvergne",
+    backgroundImage: "atelier-du-volcan/hero-background",
+    ctaPrimary: "Demander un devis",
+    ctaSecondary: "Voir nos réalisations"
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,7 +42,7 @@ const Hero = ({ showAnimation = false }: HeroProps) => {
             showAnimation ? 'animate-center-reveal' : ''
           }`}
           style={{
-            backgroundImage: 'url(https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1920)',
+            backgroundImage: `url(${getImageUrl(heroContent.backgroundImage, 'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg?auto=compress&cs=tinysrgb&w=1920', { width: 1920 })})`,
             transform: `translateY(${scrollY * 0.5}px)`,
           }}
         />
@@ -45,24 +58,21 @@ const Hero = ({ showAnimation = false }: HeroProps) => {
           <h1 className={`text-5xl md:text-7xl font-bold text-white mb-6 leading-tight ${
             showAnimation ? 'animation-delay-1000' : ''
           }`}>
-            Le <span className="text-amber-400">bois</span>,<br />
-            la <span className="text-green-400">nature</span>,<br />
-            l'<span className="text-amber-400">excellence</span>
+            <span dangerouslySetInnerHTML={{ __html: heroContent.title }} />
           </h1>
 
           {/* Subtitle */}
           <p className={`text-xl md:text-2xl text-white/90 mb-8 leading-relaxed ${
             showAnimation ? 'animation-delay-1200' : ''
           }`}>
-            Créateurs de mobilier sur-mesure et d'aménagements d'exception 
-            au cœur de l'Auvergne. Chaque projet est une œuvre unique.
+            {heroContent.subtitle}
           </p>
 
           {/* Location */}
           <p className={`text-lg text-white/80 mb-12 ${
             showAnimation ? 'animation-delay-1400' : ''
           }`}>
-            Aurillac • Murat • Salers • Toute l'Auvergne
+            {heroContent.location}
           </p>
 
           {/* CTA Buttons */}
@@ -73,14 +83,14 @@ const Hero = ({ showAnimation = false }: HeroProps) => {
               href="/contact"
               className="group inline-flex items-center justify-center px-8 py-4 bg-amber-600 text-white font-bold text-lg rounded-lg hover:bg-amber-700 transition-all duration-300 transform hover:scale-105"
             >
-              Demander un devis
+              {heroContent.ctaPrimary}
               <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
             </Link>
             <Link
               href="/projects"
               className="group inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold text-lg rounded-lg border-2 border-white/30 hover:bg-white/20 transition-all duration-300"
             >
-              Voir nos réalisations
+              {heroContent.ctaSecondary}
             </Link>
           </div>
         </div>

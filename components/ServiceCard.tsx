@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { Service } from '../types/Service';
+import { getImageUrl } from '../lib/content';
 
 interface ServiceCardProps {
   service: Service;
@@ -12,7 +13,7 @@ const ServiceCard = ({ service, showButton = false }: ServiceCardProps) => {
     <div className="bg-white rounded-lg shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
       <div className="relative overflow-hidden">
         <img
-          src={service.image}
+          src={getImageUrl(service.image, service.image.startsWith('http') ? service.image : undefined, { width: 400, height: 300 })}
           alt={service.title}
           className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
         />
