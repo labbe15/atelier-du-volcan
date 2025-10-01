@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
-import { getSiteContent } from '../lib/content';
 import { getImageUrl } from '../lib/content';
 
 interface HeroProps {

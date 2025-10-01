@@ -1,19 +1,4 @@
-import fs from 'fs';
-import path from 'path';
-
-// Helper pour lire les fichiers JSON de contenu
-export const getContentData = (filename: string) => {
-  const filePath = path.join(process.cwd(), 'data', filename);
-  const fileContents = fs.readFileSync(filePath, 'utf8');
-  return JSON.parse(fileContents);
-};
-
-// Fonctions spécifiques pour chaque type de contenu
-export const getSiteContent = () => getContentData('content.json');
-export const getServicesData = () => getContentData('services.json');
-export const getProjectsData = () => getContentData('projects.json');
-
-// Helper pour les images Cloudinary avec fallback Pexels
+// Helper pour les images Cloudinary avec fallback Pexels (CLIENT-SAFE)
 export const getImageUrl = (cloudinaryId: string, pexelsFallback?: string, options?: {
   width?: number;
   height?: number;

@@ -10,7 +10,7 @@ import ProjectGallery from '../components/ProjectGallery';
 import Testimonial from '../components/Testimonial';
 import SeoHead from '../components/SeoHead';
 import { testimonials } from '../utils/mockData';
-import { getSiteContent, getServicesData, getProjectsData } from '../lib/content';
+import { getSiteContent, getServicesData, getProjectsData } from '../lib/data-fetcher';
 import { Award, Leaf, Users, Clock } from 'lucide-react';
 
 // Fonction pour récupérer les données côté serveur
