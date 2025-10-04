@@ -1,0 +1,163 @@
+backend:
+  name: git-gateway
+  branch: main
+locale: fr
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: home
+    label: Page d’accueil
+    file: data/home.json
+    format: json
+    fields:
+      - label: Bloc hero
+        name: hero
+        widget: object
+        fields:
+          - { label: Titre, name: title, widget: string }
+          - { label: Sous-titre, name: subtitle, widget: text }
+          - { label: Image de fond (URL), name: backgroundImage, widget: string }
+          - { label: Texte du bouton, name: ctaLabel, widget: string }
+      - label: Points forts
+        name: highlights
+        widget: list
+        label_singular: Point fort
+        fields:
+          - { label: Titre, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+      - label: Services en avant
+        name: services
+        widget: object
+        fields:
+          - { label: Titre, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+          - label: Slugs des services mis en avant
+            name: featured
+            widget: list
+            field: { label: Service (slug), name: slug, widget: string }
+      - label: Bloc réalisations
+        name: showcase
+        widget: object
+        fields:
+          - { label: Titre, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+      - label: Bloc avis
+        name: testimonials
+        widget: object
+        fields:
+          - { label: Titre, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+      - label: Bloc appel à l’action
+        name: cta
+        widget: object
+        fields:
+          - { label: Titre, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+          - { label: Texte du bouton, name: button, widget: string }
+
+  - name: about
+    label: Page À propos
+    file: data/about.json
+    format: json
+    fields:
+      - { label: Titre, name: title, widget: string }
+      - { label: Introduction, name: introduction, widget: text }
+      - { label: Histoire, name: story, widget: text }
+      - label: Valeurs
+        name: values
+        widget: list
+        label_singular: Valeur
+        fields:
+          - { label: Titre, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+      - label: Appel à l’action
+        name: cta
+        widget: object
+        fields:
+          - { label: Titre, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+
+  - name: services
+    label: Services
+    file: data/services.json
+    format: json
+    fields:
+      - label: Services
+        name: items
+        widget: list
+        label_singular: Service
+        fields:
+          - { label: Slug, name: slug, widget: string }
+          - { label: Catégorie (technique), name: category, widget: string }
+          - { label: Catégorie (affichage), name: categoryLabel, widget: string }
+          - { label: Titre, name: title, widget: string }
+          - { label: Extrait, name: excerpt, widget: text }
+          - { label: Description, name: description, widget: text }
+          - label: Points clés
+            name: highlights
+            widget: list
+            field: { label: Point clé, name: highlight, widget: string }
+          - { label: Image (URL), name: image, widget: string }
+          - label: Étapes
+            name: process
+            widget: list
+            label_singular: Étape
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+
+  - name: projects
+    label: Réalisations
+    file: data/projects.json
+    format: json
+    fields:
+      - label: Projets
+        name: items
+        widget: list
+        label_singular: Projet
+        fields:
+          - { label: Titre, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+          - { label: Image (URL), name: image, widget: string }
+
+  - name: testimonials
+    label: Avis clients
+    file: data/testimonials.json
+    format: json
+    fields:
+      - label: Avis
+        name: items
+        widget: list
+        label_singular: Avis
+        fields:
+          - { label: Nom, name: name, widget: string }
+          - { label: Note (1-5), name: rating, widget: number, min: 1, max: 5 }
+          - { label: Témoignage, name: message, widget: text }
+
+  - name: settings
+    label: Coordonnées & réseaux
+    file: data/settings.json
+    format: json
+    fields:
+      - { label: Nom du site, name: siteName, widget: string }
+      - { label: Slogan, name: slogan, widget: string }
+      - { label: Description, name: description, widget: text }
+      - label: Contact
+        name: contact
+        widget: object
+        fields:
+          - { label: Adresse, name: address, widget: string }
+          - { label: Téléphone, name: phone, widget: string }
+          - { label: Email, name: email, widget: string }
+      - label: Réseaux sociaux
+        name: social
+        widget: object
+        fields:
+          - { label: Facebook, name: facebook, widget: string }
+          - { label: Instagram, name: instagram, widget: string }
+      - label: Emails (Resend)
+        name: resend
+        widget: object
+        fields:
+          - { label: Destinataire, name: recipient, widget: string }

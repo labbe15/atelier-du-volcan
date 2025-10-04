@@ -1,0 +1,23 @@
+{
+  "title": "À propos de L’Atelier du Volcan",
+  "introduction": "Installé dans l’ancienne boîte de nuit du Volcan, notre atelier a laissé la musique pour la mélodie du bois travaillé à la main.",
+  "story": "Deux amis d’enfance, Tristan et Maxime, ont transformé ce lieu iconique en un espace de création lumineux où chaque planche est sélectionnée, façonnée et posée par nos soins. Nous mêlons techniques traditionnelles et innovations écologiques pour livrer des projets solides, élégants et responsables.",
+  "values": [
+    {
+      "title": "Proximité & écoute",
+      "description": "Nous passons du temps sur place pour comprendre la structure, les usages et l’ambiance que vous recherchez."
+    },
+    {
+      "title": "Respect du bois",
+      "description": "Essences locales, gestion raisonnée des approvisionnements et finitions adaptées à la vie quotidienne."
+    },
+    {
+      "title": "Engagement durable",
+      "description": "Isolation performante, matériaux biosourcés et partenariats avec des fournisseurs cantaliens."
+    }
+  ],
+  "cta": {
+    "title": "Envie de visiter l’atelier ?",
+    "description": "Passez nous voir à Sansac de Marmiesse : nous vous montrerons nos réalisations et les essences disponibles."
+  }
+}

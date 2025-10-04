@@ -1,92 +1,480 @@
-[
-  {
-    "id": "1",
-    "title": "Escaliers Sur-Mesure",
-    "description": "Escaliers droits, hélicoïdaux ou quart tournant, conçus et fabriqués selon vos besoins et l'architecture de votre maison.",
-    "image": "atelier-du-volcan/services/escaliers",
-    "category": "stairs",
-    "priceRange": "3 500€",
-    "features": [
-      "Étude personnalisée gratuite",
-      "Bois massif local (chêne, hêtre, frêne)",
-      "Finitions sur-mesure",
-      "Installation professionnelle",
-      "Garantie 10 ans"
-    ]
-  },
-  {
-    "id": "2",
-    "title": "Dressings & Placards",
-    "description": "Optimisez vos espaces de rangement avec nos solutions sur-mesure adaptées à chaque configuration.",
-    "image": "atelier-du-volcan/services/dressings",
-    "category": "interior",
-    "priceRange": "1 200€",
-    "features": [
-      "Conception 3D incluse",
-      "Optimisation de l'espace",
-      "Accessoires haut de gamme",
-      "Éclairage LED intégré",
-      "Portes coulissantes ou battantes"
-    ]
-  },
-  {
-    "id": "3",
-    "title": "Terrasses en Bois",
-    "description": "Créez votre espace détente extérieur avec nos terrasses en bois local, résistantes et esthétiques.",
-    "image": "atelier-du-volcan/services/terrasses",
-    "category": "exterior",
-    "priceRange": "85€/m²",
-    "features": [
-      "Bois traité classe 4",
-      "Structure ventilée",
-      "Finition anti-dérapante",
-      "Garantie 15 ans",
-      "Entretien minimal"
-    ]
-  },
-  {
-    "id": "4",
-    "title": "Cuisines Équipées",
-    "description": "Cuisines sur-mesure alliant fonctionnalité et esthétique, avec des matériaux nobles et durables.",
-    "image": "atelier-du-volcan/services/cuisines",
-    "category": "interior",
-    "priceRange": "8 500€",
-    "features": [
-      "Plan de travail en bois massif",
-      "Électroménager intégré",
-      "Rangements optimisés",
-      "Îlot central possible",
-      "Garantie 5 ans"
-    ]
-  },
-  {
-    "id": "5",
-    "title": "Pergolas & Tonnelles",
-    "description": "Structures extérieures élégantes pour créer des espaces ombragés et conviviaux dans votre jardin.",
-    "image": "atelier-du-volcan/services/pergolas",
-    "category": "exterior",
-    "priceRange": "2 800€",
-    "features": [
-      "Bois lamellé-collé",
-      "Résistance aux intempéries",
-      "Assemblage traditionnel",
-      "Couverture optionnelle",
-      "Installation rapide"
-    ]
-  },
-  {
-    "id": "6",
-    "title": "Bibliothèques Sur-Mesure",
-    "description": "Bibliothèques et étagères conçues pour s'intégrer parfaitement à votre intérieur et vos besoins.",
-    "image": "atelier-du-volcan/services/bibliotheques",
-    "category": "interior",
-    "priceRange": "950€",
-    "features": [
-      "Hauteur sous plafond",
-      "Étagères réglables",
-      "Finitions personnalisées",
-      "Éclairage intégré possible",
-      "Livraison et montage inclus"
-    ]
-  }
-]
+{
+  "items": [
+    {
+      "slug": "charpente",
+      "category": "structure",
+      "categoryLabel": "Structure",
+      "title": "Charpente traditionnelle & industrielle",
+      "excerpt": "Conception, taille et pose de charpentes adaptées aux constructions neuves ou aux rénovations exigeantes.",
+      "description": "Nous taillons chaque élément dans notre atelier pour assurer un assemblage précis et durable. Nous travaillons aussi bien la charpente traditionnelle en bois massif que les structures industrialisées pour répondre aux contraintes thermiques et budgétaires.",
+      "highlights": [
+        "Étude structurelle complète",
+        "Bois locaux séchés et contrôlés",
+        "Levage sécurisé avec suivi de chantier"
+      ],
+      "image": "https://images.unsplash.com/photo-1503387837-b154d5074bd2?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Conception sur-mesure",
+          "description": "Plans précis, dimensionnement et intégration aux contraintes de votre bâtisse."
+        },
+        {
+          "title": "Préparation en atelier",
+          "description": "Assemblages, traitements et contrôles avant livraison sur site."
+        },
+        {
+          "title": "Pose & suivi",
+          "description": "Levage maîtrisé, ajustements fins et coordination avec les autres corps de métier."
+        }
+      ]
+    },
+    {
+      "slug": "ossature-bois",
+      "category": "structure",
+      "categoryLabel": "Structure",
+      "title": "Ossature bois",
+      "excerpt": "Structures légères, performantes et isolantes pour maisons, extensions et bâtiments professionnels.",
+      "description": "Nos parois sont assemblées en atelier pour garantir une pose rapide et un chantier propre. L’ossature bois offre une excellente performance thermique, une liberté architecturale et un chantier bas carbone.",
+      "highlights": [
+        "Étude thermique et acoustique",
+        "Pare-vapeur et isolation biosourcée",
+        "Chantiers secs et rapides"
+      ],
+      "image": "https://images.unsplash.com/photo-1523419409543-0c1df022bdd1?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Fabrication en atelier",
+          "description": "Panneaux assemblés et isolés pour limiter les aléas météo."
+        },
+        {
+          "title": "Mise en place",
+          "description": "Levage et ancrage des murs, planchers et toitures."
+        },
+        {
+          "title": "Étanchéité",
+          "description": "Traitement des points singuliers et pose des menuiseries."
+        }
+      ]
+    },
+    {
+      "slug": "pergola",
+      "category": "structure",
+      "categoryLabel": "Structure",
+      "title": "Pergolas bois",
+      "excerpt": "Des espaces de vie ombragés qui prolongent votre maison et valorisent votre jardin.",
+      "description": "Pergolas autoportées, adossées ou bioclimatiques, avec toiles, lames ou couvertures transparentes. Nous intégrons l’éclairage, l’électricité et les protections climatiques nécessaires.",
+      "highlights": [
+        "Design assorti à votre façade",
+        "Options d’occultation et d’éclairage",
+        "Protection durable des bois"
+      ],
+      "image": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Étude sur site",
+          "description": "Relevés, orientation soleil et gestion des eaux pluviales."
+        },
+        {
+          "title": "Fabrication sur-mesure",
+          "description": "Section des bois, finitions et accessoires adaptés."
+        },
+        {
+          "title": "Pose rapide",
+          "description": "Montage, fixations et réglages finaux pour profiter immédiatement."
+        }
+      ]
+    },
+    {
+      "slug": "terrasses",
+      "category": "structure",
+      "categoryLabel": "Structure",
+      "title": "Terrasses bois",
+      "excerpt": "Terrasses et plages de piscine résistantes, confortables et faciles à entretenir.",
+      "description": "Nous proposons des platelages en bois massif, bois composite ou résineux traités. Structure ventilée, calage précis et protections garantissent un rendu durable.",
+      "highlights": [
+        "Étude de portance",
+        "Bois imputrescibles ou composites",
+        "Finitions antidérapantes"
+      ],
+      "image": "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Préparation du support",
+          "description": "Stabilisation du sol, plots réglables ou longrines béton."
+        },
+        {
+          "title": "Structure & platelage",
+          "description": "Lambourdage ventilé, fixations invisibles et découpe soignée."
+        },
+        {
+          "title": "Protection & entretien",
+          "description": "Saturation, huilage ou conseils d’entretien adaptés à l’essence."
+        }
+      ]
+    },
+    {
+      "slug": "carport",
+      "category": "structure",
+      "categoryLabel": "Structure",
+      "title": "Carports & abris",
+      "excerpt": "Protégez vos véhicules avec des structures bois harmonieuses et robustes.",
+      "description": "Carports simples ou doubles, intégrés à la maison ou indépendants. Toiture bac acier, tuiles ou polycarbonate, habillages latéraux et rangements intégrés selon vos usages.",
+      "highlights": [
+        "Calcul des charges neige et vent",
+        "Toitures adaptées au climat cantalien",
+        "Possibilité de panneaux solaires"
+      ],
+      "image": "https://images.unsplash.com/photo-1523419409543-0c1df022bdd1?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Avant-projet",
+          "description": "Dimensionnement, formalités administratives et rendu 3D."
+        },
+        {
+          "title": "Fabrication",
+          "description": "Sections renforcées, traitements classe 3 ou 4, finitions assorties."
+        },
+        {
+          "title": "Pose",
+          "description": "Ancrage, couverture et évacuation des eaux pluviales."
+        }
+      ]
+    },
+    {
+      "slug": "menuiserie-interieure",
+      "category": "menuiserie",
+      "categoryLabel": "Menuiserie",
+      "title": "Menuiserie intérieure",
+      "excerpt": "Portes, plinthes, claustras et aménagements qui structurent vos espaces de vie.",
+      "description": "Nous imaginons et fabriquons les finitions qui donnent du caractère à votre intérieur : menuiseries planes ou moulurées, parements muraux, verrières et rangements intégrés.",
+      "highlights": [
+        "Relevés précis sur chantier",
+        "Assemblages invisibles",
+        "Peintures et vernis professionnels"
+      ],
+      "image": "https://images.unsplash.com/photo-1505692794403-55b39b930896?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Conception",
+          "description": "Propositions de matériaux, couleurs et intégration aux pièces."
+        },
+        {
+          "title": "Fabrication",
+          "description": "Découpe numérique, ponçage et finitions en cabine."
+        },
+        {
+          "title": "Installation",
+          "description": "Pose minutieuse, réglages et protections de vos sols et murs."
+        }
+      ]
+    },
+    {
+      "slug": "menuiserie-exterieure",
+      "category": "menuiserie",
+      "categoryLabel": "Menuiserie",
+      "title": "Menuiserie extérieure",
+      "excerpt": "Volets, bardages, claustras et protections qui valorisent votre façade.",
+      "description": "Nous fabriquons et posons des menuiseries extérieures résistantes aux intempéries : volets bois, bardages ventilés, brise-vues et gardes-corps.",
+      "highlights": [
+        "Bois traités classe 3 et 4",
+        "Fixations inox",
+        "Finitions teintées ou naturelles"
+      ],
+      "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Diagnostic",
+          "description": "Analyse des expositions, contraintes climatiques et réglementaires."
+        },
+        {
+          "title": "Fabrication",
+          "description": "Profilage, assemblages renforcés et traitements adaptés."
+        },
+        {
+          "title": "Pose",
+          "description": "Étanchéité parfaite, réglages et conseils d’entretien."
+        }
+      ]
+    },
+    {
+      "slug": "escaliers",
+      "category": "menuiserie",
+      "categoryLabel": "Menuiserie",
+      "title": "Escaliers sur mesure",
+      "excerpt": "Escaliers droits, quart tournant ou hélicoïdaux conçus comme des pièces uniques.",
+      "description": "Nous associons bois, métal et verre pour créer un escalier sécurisé et esthétique. Plans 3D, main courante, garde-corps et éclairage intégré possibles.",
+      "highlights": [
+        "Étude ergonomique",
+        "Assemblages invisibles",
+        "Finitions huilées ou vernies"
+      ],
+      "image": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Relevés & design",
+          "description": "Étude des hauteurs, des circulations et proposition de formes."
+        },
+        {
+          "title": "Fabrication",
+          "description": "Découpe, collage et ajustement millimétré de chaque marche."
+        },
+        {
+          "title": "Pose",
+          "description": "Installation, fixation et finitions protectrices."
+        }
+      ]
+    },
+    {
+      "slug": "sols",
+      "category": "menuiserie",
+      "categoryLabel": "Menuiserie",
+      "title": "Sols & parquet",
+      "excerpt": "Parquets massifs, contrecollés ou stratifiés, posés avec soin dans chaque pièce.",
+      "description": "Nous préparons les supports, assurons l’isolation phonique et posons les revêtements adaptés à votre usage : chambres, pièces de vie, commerces ou escaliers.",
+      "highlights": [
+        "Préparation des supports",
+        "Pose collée ou flottante",
+        "Traitements protecteurs"
+      ],
+      "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Choix des matériaux",
+          "description": "Conseils sur les essences, formats et finitions."
+        },
+        {
+          "title": "Préparation",
+          "description": "Ragréage, sous-couches et mise à niveau."
+        },
+        {
+          "title": "Pose & finitions",
+          "description": "Pose minutieuse, joints, plinthes et huilage si nécessaire."
+        }
+      ]
+    },
+    {
+      "slug": "agencement",
+      "category": "agencement",
+      "categoryLabel": "Agencement",
+      "title": "Agencement global",
+      "excerpt": "Optimisation des volumes pour créer des espaces fluides et fonctionnels.",
+      "description": "Nous proposons une vision globale de votre intérieur : cloisons légères, intégration des réseaux, luminaires, rangements cachés et mobilier complémentaire.",
+      "highlights": [
+        "Études 3D",
+        "Gestion des corps d’état",
+        "Délais coordonnés"
+      ],
+      "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Conception",
+          "description": "Plans d’intention, moodboards et sélection matériaux."
+        },
+        {
+          "title": "Fabrication",
+          "description": "Production des éléments en atelier avec finitions coordonnées."
+        },
+        {
+          "title": "Installation",
+          "description": "Coordination des interventions et finitions clés en main."
+        }
+      ]
+    },
+    {
+      "slug": "dressing",
+      "category": "agencement",
+      "categoryLabel": "Agencement",
+      "title": "Dressings & rangements",
+      "excerpt": "Rangements sur mesure adaptés à vos habitudes et à vos volumes.",
+      "description": "Dressings ouverts ou fermés, aménagements sous pente, meubles d’entrée et bibliothèques modulables. Nous concevons chaque détail : éclairage, accessoires, miroirs, tiroirs sur mesure.",
+      "highlights": [
+        "Optimisation centimétrée",
+        "Large choix de finitions",
+        "Accessoires fonctionnels"
+      ],
+      "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Analyse des besoins",
+          "description": "Inventaire, habitudes et ergonomie."
+        },
+        {
+          "title": "Fabrication",
+          "description": "Découpe, chants plaqués, assemblage précis."
+        },
+        {
+          "title": "Installation",
+          "description": "Montage propre, réglages des façades et accessoires."
+        }
+      ]
+    },
+    {
+      "slug": "cuisines",
+      "category": "agencement",
+      "categoryLabel": "Agencement",
+      "title": "Cuisines sur mesure",
+      "excerpt": "Cuisines bois contemporaines, chaleureuses et parfaitement ergonomiques.",
+      "description": "Nous dessinons et fabriquons votre cuisine de A à Z : caissons, façades, plans de travail, crédences et intégration des appareils électroménagers.",
+      "highlights": [
+        "Implantation optimisée",
+        "Plans de travail robustes",
+        "Éclairage intégré"
+      ],
+      "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Conception",
+          "description": "Plan 3D, choix des matériaux et des appareils."
+        },
+        {
+          "title": "Fabrication",
+          "description": "Production des modules, façades et accessoires sur mesure."
+        },
+        {
+          "title": "Pose",
+          "description": "Installation complète, raccordements et ajustements."
+        }
+      ]
+    },
+    {
+      "slug": "mobilier-sur-mesure",
+      "category": "agencement",
+      "categoryLabel": "Agencement",
+      "title": "Mobilier sur mesure",
+      "excerpt": "Tables, banquettes, bureaux et pièces uniques pour particuliers et professionnels.",
+      "description": "Nous fabriquons du mobilier durable adapté à vos usages : bois massif, placages rares, intégration de métal ou de pierre pour un rendu unique.",
+      "highlights": [
+        "Design collaboratif",
+        "Assemblages robustes",
+        "Finitions à la carte"
+      ],
+      "image": "https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Croquis & maquettes",
+          "description": "Propositions esthétiques et techniques."
+        },
+        {
+          "title": "Fabrication",
+          "description": "Travail artisanal, finitions haut de gamme."
+        },
+        {
+          "title": "Livraison",
+          "description": "Installation sur place et conseils d’entretien."
+        }
+      ]
+    },
+    {
+      "slug": "extension-bois",
+      "category": "extensions",
+      "categoryLabel": "Extension bois",
+      "title": "Extension bois",
+      "excerpt": "Gagnez des mètres carrés lumineux tout en respectant l’identité de votre maison.",
+      "description": "Nous concevons des extensions bois sur-mesure : pièces de vie, suites parentales, ateliers ou bureaux. Isolation renforcée, raccordements maîtrisés et finitions harmonieuses avec l’existant.",
+      "highlights": [
+        "Étude architecturale",
+        "Permis de construire accompagné",
+        "Chantier propre et rapide"
+      ],
+      "image": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Étude",
+          "description": "Analyse de l’existant, esquisses et budget détaillé."
+        },
+        {
+          "title": "Fabrication",
+          "description": "Ossature, isolation, menuiseries et bardages en atelier."
+        },
+        {
+          "title": "Raccordement",
+          "description": "Jonction avec la maison, étanchéité et finitions intérieures."
+        }
+      ]
+    },
+    {
+      "slug": "extension-ossature-bois",
+      "category": "extensions",
+      "categoryLabel": "Extension bois",
+      "title": "Extension ossature bois",
+      "excerpt": "Solution idéale pour agrandir rapidement avec d’excellentes performances thermiques.",
+      "description": "Nous préfabriquons les murs ossature bois et les posons en quelques jours. Isolation biosourcée, menuiseries performantes et finitions intérieures sur mesure.",
+      "highlights": [
+        "Structure légère",
+        "Isolation continue",
+        "Gestion des ponts thermiques"
+      ],
+      "image": "https://images.unsplash.com/photo-1523419409543-0c1df022bdd1?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Préparation",
+          "description": "Fondations, réseaux et raccordements."
+        },
+        {
+          "title": "Montage",
+          "description": "Pose des murs, planchers, toitures et menuiseries."
+        },
+        {
+          "title": "Finitions",
+          "description": "Habillages extérieurs, isolation intérieure et décoration."
+        }
+      ]
+    },
+    {
+      "slug": "surelevation",
+      "category": "extensions",
+      "categoryLabel": "Extension bois",
+      "title": "Surélévation",
+      "excerpt": "Ajoutez un étage sans déménager grâce à une structure bois légère et performante.",
+      "description": "Nous renforçons l’existant, créons les nouveaux niveaux et assurons l’isolation complète. Nos équipes coordonnent les raccordements et la reprise de toiture.",
+      "highlights": [
+        "Étude structurelle",
+        "Gestion administrative",
+        "Isolation acoustique soignée"
+      ],
+      "image": "https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Diagnostic",
+          "description": "Analyse des charges admissibles et formalités."
+        },
+        {
+          "title": "Mise en œuvre",
+          "description": "Montage de la surélévation, isolation et couverture."
+        },
+        {
+          "title": "Intégration",
+          "description": "Distribution intérieure, escalier et finitions."
+        }
+      ]
+    },
+    {
+      "slug": "amenagements-exterieurs",
+      "category": "extensions",
+      "categoryLabel": "Extension bois",
+      "title": "Aménagements extérieurs",
+      "excerpt": "Decks, claustras, abris, pool house et éléments paysagers sur mesure.",
+      "description": "Nous créons des espaces extérieurs cohérents avec votre maison : pergolas, cuisines d’été, bardages, platelages, habillages d’espaces techniques.",
+      "highlights": [
+        "Matériaux résistants",
+        "Détails soignés",
+        "Coordination avec paysagistes"
+      ],
+      "image": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1200&q=80",
+      "process": [
+        {
+          "title": "Étude",
+          "description": "Analyse du terrain, des accès et de la vue."
+        },
+        {
+          "title": "Fabrication",
+          "description": "Préparation en atelier pour limiter les nuisances."
+        },
+        {
+          "title": "Installation",
+          "description": "Pose, raccordements et finitions résistantes."
+        }
+      ]
+    }
+  ]
+}

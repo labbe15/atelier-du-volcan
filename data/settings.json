@@ -1,0 +1,17 @@
+{
+  "siteName": "L’Atelier du Volcan",
+  "slogan": "Deux artisans, une même passion : le bois.",
+  "description": "Charpentiers-menuisiers basés à Sansac de Marmiesse, nous concevons et réalisons des structures bois durables, élégantes et adaptées à la vie quotidienne.",
+  "contact": {
+    "address": "Les 4 routes d’Albussac, 15130 Sansac de Marmiesse",
+    "phone": "07 50 44 50 55",
+    "email": "contact@atelier-du-volcan.com"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/latelierduvolcan",
+    "instagram": "https://www.instagram.com/latelierduvolcan"
+  },
+  "resend": {
+    "recipient": "contact@atelier-du-volcan.com"
+  }
+}
