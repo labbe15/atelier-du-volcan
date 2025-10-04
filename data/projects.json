@@ -1,74 +1,64 @@
-[
-  {
-    "id": "1",
-    "title": "Escalier Hélicoïdal en Chêne",
-    "description": "Escalier hélicoïdal sur-mesure en chêne massif avec rampe forgée, créé pour une maison de caractère à Salers.",
-    "beforeImage": "atelier-du-volcan/projects/escalier-helicoidale-avant",
-    "afterImage": "atelier-du-volcan/projects/escalier-helicoidale-apres",
-    "category": "interior",
-    "location": "Salers",
-    "year": "2024",
-    "duration": "3 semaines",
-    "materials": ["Chêne massif", "Fer forgé", "Finition huile naturelle"]
-  },
-  {
-    "id": "2",
-    "title": "Dressing Suite Parentale",
-    "description": "Aménagement complet d'une suite parentale avec dressing sur-mesure et tête de lit intégrée.",
-    "beforeImage": "atelier-du-volcan/projects/dressing-suite-avant",
-    "afterImage": "atelier-du-volcan/projects/dressing-suite-apres",
-    "category": "interior",
-    "location": "Aurillac",
-    "year": "2024",
-    "duration": "2 semaines",
-    "materials": ["Hêtre massif", "Miroirs", "Éclairage LED"]
-  },
-  {
-    "id": "3",
-    "title": "Terrasse avec Pergola",
-    "description": "Terrasse en bois local avec pergola intégrée, créant un espace de vie extérieur exceptionnel.",
-    "beforeImage": "atelier-du-volcan/projects/terrasse-pergola-avant",
-    "afterImage": "atelier-du-volcan/projects/terrasse-pergola-apres",
-    "category": "exterior",
-    "location": "Murat",
-    "year": "2023",
-    "duration": "1 semaine",
-    "materials": ["Pin Douglas", "Visserie inox", "Traitement autoclave"]
-  },
-  {
-    "id": "4",
-    "title": "Cuisine Contemporaine",
-    "description": "Cuisine moderne en bois massif avec îlot central et plan de travail en chêne.",
-    "beforeImage": "atelier-du-volcan/projects/cuisine-contemporaine-avant",
-    "afterImage": "atelier-du-volcan/projects/cuisine-contemporaine-apres",
-    "category": "interior",
-    "location": "Saint-Flour",
-    "year": "2023",
-    "duration": "4 semaines",
-    "materials": ["Chêne massif", "Laque mate", "Quartz"]
-  },
-  {
-    "id": "5",
-    "title": "Bibliothèque Murale",
-    "description": "Bibliothèque sur-mesure du sol au plafond avec échelle coulissante et éclairage intégré.",
-    "beforeImage": "atelier-du-volcan/projects/bibliotheque-murale-avant",
-    "afterImage": "atelier-du-volcan/projects/bibliotheque-murale-apres",
-    "category": "interior",
-    "location": "Aurillac",
-    "year": "2024",
-    "duration": "10 jours",
-    "materials": ["Frêne massif", "Laiton", "LED"]
-  },
-  {
-    "id": "6",
-    "title": "Pergola Bioclimatique",
-    "description": "Pergola à lames orientables pour un contrôle optimal de la luminosité et de la ventilation.",
-    "beforeImage": "atelier-du-volcan/projects/pergola-bioclimatique-avant",
-    "afterImage": "atelier-du-volcan/projects/pergola-bioclimatique-apres",
-    "category": "exterior",
-    "location": "Vic-sur-Cère",
-    "year": "2023",
-    "duration": "2 semaines",
-    "materials": ["Aluminium", "Bois composite", "Motorisation"]
-  }
-]
+{
+  "items": [
+    {
+      "title": "Extension bois lumineuse",
+      "description": "Salon cathédrale avec bardage douglas et menuiseries aluminium.",
+      "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "title": "Pergola bioclimatique",
+      "description": "Structure mélèze avec lames orientables et éclairage LED intégré.",
+      "image": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "title": "Charpente traditionnelle",
+      "description": "Rénovation d’un corps de ferme avec reprise complète de charpente.",
+      "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "title": "Cuisine chêne & granit",
+      "description": "Cuisine familiale avec îlot central et rangements sur mesure.",
+      "image": "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "title": "Dressing sous pente",
+      "description": "Optimisation complète d’une suite parentale.",
+      "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "title": "Escalier quart tournant",
+      "description": "Escalier frêne et garde-corps métal pour loft contemporain.",
+      "image": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "title": "Terrasse sur plots",
+      "description": "Terrasse ipé 50 m² avec intégration jacuzzi.",
+      "image": "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "title": "Carport double",
+      "description": "Structure douglas avec rangements fermés latéraux.",
+      "image": "https://images.unsplash.com/photo-1523419409543-0c1df022bdd1?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "title": "Mobilier d’accueil",
+      "description": "Comptoir chêne et métal noir pour un commerce local.",
+      "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "title": "Bardage ajouré",
+      "description": "Habillage extérieur en douglas pour isoler une façade nord.",
+      "image": "https://images.unsplash.com/photo-1523419409543-0c1df022bdd1?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "title": "Surélévation bois",
+      "description": "Création d’un étage supplémentaire avec toiture terrasse végétalisée.",
+      "image": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "title": "Bibliothèque sur mesure",
+      "description": "Bibliothèque toute hauteur en noyer avec échelle coulissante.",
+      "image": "https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&w=1200&q=80"
+    }
+  ]
+}

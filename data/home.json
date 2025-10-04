@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "title": "Création & rénovation sur mesure",
+    "subtitle": "Structure, menuiserie, agencement et extensions bois. Finitions durables, conseils transparents.",
+    "backgroundImage": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1400&q=80",
+    "ctaLabel": "Contactez-nous"
+  },
+  "highlights": [
+    {
+      "title": "Devis sous 48h",
+      "description": "Analyse rapide et chiffrage détaillé pour démarrer votre projet sereinement."
+    },
+    {
+      "title": "Pose soignée",
+      "description": "Chaque chantier est conduit par nos soins avec un suivi méticuleux."
+    },
+    {
+      "title": "Matériaux adaptés",
+      "description": "Essences locales, traitements durables et finitions au plus près de vos usages."
+    },
+    {
+      "title": "Local & réactif",
+      "description": "Basés dans le Cantal, nous restons disponibles avant, pendant et après votre chantier."
+    }
+  ],
+  "services": {
+    "title": "Nos expertises",
+    "description": "Du gros œuvre bois aux aménagements intérieurs, nous accompagnons chaque étape de votre projet.",
+    "featured": [
+      "charpente",
+      "menuiserie-interieure",
+      "extension-bois"
+    ]
+  },
+  "showcase": {
+    "title": "Réalisations récentes",
+    "description": "Un aperçu de chantiers menés avec rigueur et passion dans tout le Cantal."
+  },
+  "testimonials": {
+    "title": "Ils nous font confiance",
+    "description": "Merci aux clientes et clients qui nous confient leurs maisons, commerces et projets de vie."
+  },
+  "cta": {
+    "title": "Parlons de votre projet",
+    "description": "Expliquez-nous vos envies : nous revenons vers vous avec des solutions adaptées et un devis clair.",
+    "button": "Demander un devis"
+  }
+}

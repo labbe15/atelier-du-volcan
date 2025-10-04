@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "name": "Claire D.",
+      "rating": 5,
+      "message": "Extension bois livrée dans les délais avec un rendu magnifique. L’équipe a su nous conseiller à chaque étape."
+    },
+    {
+      "name": "Hugo M.",
+      "rating": 5,
+      "message": "Charpente et terrasse impeccables. Travail sérieux, protections chantier et finitions au top."
+    },
+    {
+      "name": "Nina S.",
+      "rating": 5,
+      "message": "Aménagement intérieur sur mesure qui transforme notre maison. Tristan et Maxime sont à l’écoute et force de proposition."
+    }
+  ]
+}
